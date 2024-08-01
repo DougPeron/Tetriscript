@@ -37,6 +37,7 @@ const iShape = [
     [gridWidth, gridWidth + 1, gridWidth + 2, gridWidth + 3],
 ]
 const allShapes = [lShape, zShape, tShape, oShape, iShape]
+const colorShape = ["shapePaintedRed","shapePaintedPurple","shapePaintedYellow","shapePaintedblue","shapePaintedGreen" ]
 let currentPosition = 3
 let currentRotation = 0
 let randomShape = Math.floor(Math.random() * allShapes.length)
