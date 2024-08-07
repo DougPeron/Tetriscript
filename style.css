@@ -71,28 +71,38 @@ body{
     font-size: 32px;
     margin-top: 24px;
 }
-.shapePaintedRed{
-    background: rgb(255, 34, 34);
-    border-right: 2px solid rgb(24, 24, 24);
-    border-bottom: 2px solid rgb(24, 24, 24); 
-}
-.shapePaintedPurple{
-    background: rgb(174, 34, 255);
-    border-right: 2px solid rgb(24, 24, 24);
-    border-bottom: 2px solid rgb(24, 24, 24); 
-}
-.shapePaintedYellow{
-    background: rgb(255, 251, 34);
-    border-right: 2px solid rgb(24, 24, 24);
-    border-bottom: 2px solid rgb(24, 24, 24); 
-}
-.shapePaintedblue{
-    background: rgb(34, 93, 255);
-    border-right: 2px solid rgb(24, 24, 24);
-    border-bottom: 2px solid rgb(24, 24, 24); 
+.shapePainted {
+    background: linear-gradient(rgb(34, 255, 63), rgb(160, 255, 172));
+    border-right: 1px solid rgb(24, 24, 24);
+    border-bottom: 1px solid rgb(24, 24, 24);   
 }
 .shapePaintedGreen {
-    background: rgb(34, 255, 63);
-    border-right: 2px solid rgb(24, 24, 24);
-    border-bottom: 2px solid rgb(24, 24, 24);   
+    background: linear-gradient(rgb(34, 255, 63), rgb(160, 255, 172));
+    border-right: 1px solid rgb(24, 24, 24);
+    border-bottom: 1px solid rgb(24, 24, 24);   
+}
+.shapePaintedRed{
+    background: linear-gradient(rgb(255, 34, 34), rgb(252, 134, 134));
+    border-right: 1px solid rgb(24, 24, 24);
+    border-bottom: 1px solid rgb(24, 24, 24); 
+}
+.shapePaintedPink{
+    background: linear-gradient(rgb(255, 34, 255), rgb(252, 134, 134));
+    border-right: 1px solid rgb(24, 24, 24);
+    border-bottom: 1px solid rgb(24, 24, 24); 
+}
+.shapePaintedYellow{
+    background: linear-gradient(rgb(255, 251, 34), rgb(245, 243, 150));
+    border-right: 1px solid rgb(24, 24, 24);
+    border-bottom: 1px solid rgb(24, 24, 24); 
+}
+.shapePaintedblue{
+    background: linear-gradient(rgb(34, 93, 255), rgb(155, 182, 255));
+    border-right: 1px solid rgb(24, 24, 24);
+    border-bottom: 1px solid rgb(24, 24, 24); 
+}
+.shapePaintedOrange {
+    background: linear-gradient(rgb(255, 141, 34), rgb(252, 206, 164));
+    border-right: 1px solid rgb(24, 24, 24);
+    border-bottom: 1px solid rgb(24, 24, 24);   
 }
