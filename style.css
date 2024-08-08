@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+h3{
+  color: #fff;  
+}
 button{
     cursor: pointer;
 }
@@ -13,26 +15,38 @@ button:disabled{
 }
 body{
     height: 100vh;
+    font-family: system-ui;
+    background-image: url("./image/background-body.jpg");
+    background-size: cover;
+    background-position: center top;
+    
 }
 .container{
+    margin-top: 50px;
     padding: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    
 }
 .btn-container{
     margin-bottom: 16px;
-    width: 280px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8px;
 }
 .btn-container button{
     border: none;
-    background: #1e2ede;
-    color: #fff;
+    background: linear-gradient(rgb(255, 255, 255), rgb(197, 17, 197));
+    color: #000000;
     font-size: 16px;
     font-weight: bold;
     border-radius: 7px;
-    height: 32px;
+    height: 42px;
     transition: filter 0.2s;
+    width: 280px;
 }
 .btn-container button:hover{
     filter: brightness(0.8);
@@ -41,11 +55,12 @@ body{
     display: flex;
 }
 .grid{
-    width: 200px;
-    height: 400px;
-    background: rgb(71, 71, 71);
+    width: 206px;
+    height: 406px;
+    background: #000549;
     display: flex;
     flex-wrap: wrap;
+    border: 3px solid rgb(255, 38, 226);
 }
 .grid div{
     width: 20px;
@@ -57,11 +72,12 @@ body{
     margin-left: 30px;
 }
 .mini-grid{
-    width: 120px;
-    height: 120px;
-    background: rgb(54, 170, 0);
+    width: 126px;
+    height: 126px;
+    background: #000549;
     display: flex;
     flex-wrap: wrap;
+    border: 3px solid rgb(255, 38, 226);
 }
 .mini-grid div{
     width: 20px;
